@@ -19,7 +19,8 @@ export class RegistroComponent {
     PasswordRequiresNonAlphanumeric: "Las contraseñas deben contener al menos un carácter no alfanumérico.",
     PasswordRequiresLower: "Las contraseñas deben contener al menos una letra minúscula ('a'-'z').",
     PasswordRequiresUpper: "Las contraseñas deben contener al menos una letra mayúscula ('A'-'Z').",
-    PasswordRequiresSpecial: "Las contraseñas deben contener al menos un carácter especial (por ejemplo, '@' o '*')."
+    PasswordRequiresSpecial: "Las contraseñas deben contener al menos un carácter especial (por ejemplo, '@' o '*').",
+    DuplicateUserName: "El correo electrónico ya está en uso."
   };
 
   constructor(
@@ -76,11 +77,11 @@ export class RegistroComponent {
       },
       error: (error) => {
         console.error('Error al registrar:', error);
-        Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: '¡Registro Incorrecto!'
-        });
+        if (error.errors && error.errors.DuplicateUserName) {
+          this.mostrarError('DuplicateUserName');
+        } else {
+          this.mostrarError('DuplicateUserName');
+        }
       }
     });
   }
@@ -91,26 +92,25 @@ export class RegistroComponent {
   }
 
 //  esta  funcion muestra el error dado el caso de que el  usuario no ingresela contraseña con las condiciones
-  private mostrarError(tipo: string) {
-    let mensaje: string;
-    switch (tipo) {
-      case 'CampoRequerido':
-        mensaje = this.errores[tipo];
-        break;
-      case 'PasswordTooShort':
-      case 'PasswordRequiresNonAlphanumeric':
-      case 'PasswordRequiresLower':
-      case 'PasswordRequiresUpper':
-      case 'PasswordRequiresSpecial':
-        mensaje = this.errores[tipo];
-        break;
-      default:
-        mensaje = 'Error desconocido';
-    }
-    Swal.fire({
-      icon: 'error',
-      title: 'Oops...',
-      text: mensaje
-    });
+private mostrarError(tipo: string) {
+  let mensaje: string;
+  switch (tipo) {
+    case 'CampoRequerido':
+    case 'PasswordTooShort':
+    case 'PasswordRequiresNonAlphanumeric':
+    case 'PasswordRequiresLower':
+    case 'PasswordRequiresUpper':
+    case 'PasswordRequiresSpecial':
+    case 'DuplicateUserName':
+      mensaje = this.errores[tipo];
+      break;
+    default:
+      mensaje = 'Error desconocido';
   }
+  Swal.fire({
+    icon: 'error',
+    title: 'Oops...',
+    text: mensaje
+  });
+}
 }

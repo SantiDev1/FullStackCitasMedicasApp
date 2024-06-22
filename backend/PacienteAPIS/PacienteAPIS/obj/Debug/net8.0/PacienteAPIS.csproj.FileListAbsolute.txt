@@ -282,3 +282,4 @@ C:\Users\Santiago\Desktop\ProyectoCompletoCitasMedicas\backend\PacienteAPIS\Paci
 C:\Users\Santiago\Desktop\ProyectoCompletoCitasMedicas\backend\PacienteAPIS\PacienteAPIS\obj\Debug\net8.0\PacienteAPIS.pdb
 C:\Users\Santiago\Desktop\ProyectoCompletoCitasMedicas\backend\PacienteAPIS\PacienteAPIS\obj\Debug\net8.0\PacienteAPIS.genruntimeconfig.cache
 C:\Users\Santiago\Desktop\ProyectoCompletoCitasMedicas\backend\PacienteAPIS\PacienteAPIS\obj\Debug\net8.0\ref\PacienteAPIS.dll
+C:\Users\Santiago\Desktop\ProyectoCompletoCitasMedicas\backend\PacienteAPIS\PacienteAPIS\obj\Debug\net8.0\PacienteAPIS.sourcelink.json

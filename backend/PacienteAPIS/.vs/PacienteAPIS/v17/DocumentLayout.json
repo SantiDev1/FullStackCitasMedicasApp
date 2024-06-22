@@ -58,11 +58,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "PacienteAPIS\\Controllers\\CitasController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAcwJMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:57:07.65Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -87,19 +100,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T20:58:24.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CitasController.cs",
-              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\CitasController.cs",
-              "RelativeDocumentMoniker": "PacienteAPIS\\Controllers\\CitasController.cs",
-              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\CitasController.cs",
-              "RelativeToolTip": "PacienteAPIS\\Controllers\\CitasController.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAcwJMAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T20:57:07.65Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
