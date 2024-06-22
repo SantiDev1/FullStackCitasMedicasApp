@@ -1,0 +1,38 @@
+<div class="container-fluid ps-md-0">
+  <div class="row g-0">
+    <div class="d-none d-md-flex col-md-4 col-lg-6 bg-image"></div>
+    <div class="col-md-8 col-lg-6">
+      <div class="login d-flex align-items-center py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-lg-8 mx-auto">
+              <h2 class="login-heading mb-4" style="color: rgb(0, 123, 255);"> Bienvenido,</h2>
+              <h4 class="login-heading mb-4"> Aquí podrás solicitar, consultar o modificar tu cita.</h4>
+
+              <!-- Sign In Form -->
+              <div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" [(ngModel)]="email">
+                  <label for="floatingInput">Correo Electrónico</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" [(ngModel)]="password">
+                  <label for="floatingPassword">Contraseña</label>
+                </div>
+
+                <div class="d-grid">
+                  <button class="btn btn-lg btn-primary btn-login text-uppercase fw-bold mb-2" (click)="IniciarSesion()">Iniciar Sesión</button>
+                  <div class="text-center">
+                    <a style="margin-right: 10px;">¿Aún no tienes una cuenta?</a>
+                    <a class="small" (click)="Registrarse()">Crear una cuenta</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

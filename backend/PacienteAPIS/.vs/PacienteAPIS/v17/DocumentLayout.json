@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\models\\citasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\models\\citasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\models\\addcitasrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\models\\addcitasrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\models\\updatecitasrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\models\\updatecitasrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\migrations\\aplicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\migrations\\aplicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\migrations\\20240620210052_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\migrations\\20240620210052_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\migrations\\20240620204256_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\migrations\\20240620204256_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|c:\\users\\santiago\\desktop\\proyectocompletocitasmedicas\\backend\\pacienteapis\\pacienteapis\\migrations\\20240621232820_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251FAEE4-769D-4C53-BC5D-413436072736}|PacienteAPIS\\PacienteAPIS.csproj|solutionrelative:pacienteapis\\migrations\\20240621232820_three.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240621232820_Three.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\20240621232820_Three.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Migrations\\20240621232820_Three.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\20240621232820_Three.cs",
+              "RelativeToolTip": "PacienteAPIS\\Migrations\\20240621232820_Three.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T23:28:21.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCitasRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Models\\AddCitasRequest.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Models\\AddCitasRequest.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Models\\AddCitasRequest.cs",
+              "RelativeToolTip": "PacienteAPIS\\Models\\AddCitasRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:58:24.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "PacienteAPIS\\Controllers\\CitasController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAcwJMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:57:07.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitasModel.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Models\\CitasModel.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Models\\CitasModel.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Models\\CitasModel.cs",
+              "RelativeToolTip": "PacienteAPIS\\Models\\CitasModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:55:40.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\AplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Migrations\\AplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\AplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "PacienteAPIS\\Migrations\\AplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAACABAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:52:25.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Data\\AplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Data\\AplicationDbContext.cs",
+              "RelativeToolTip": "PacienteAPIS\\Data\\AplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:37:10.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\appsettings.json",
+              "RelativeDocumentMoniker": "PacienteAPIS\\appsettings.json",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\appsettings.json",
+              "RelativeToolTip": "PacienteAPIS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T20:40:21.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Program.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Program.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Program.cs",
+              "RelativeToolTip": "PacienteAPIS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:38:13.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateCitasRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Models\\UpdateCitasRequest.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Models\\UpdateCitasRequest.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Models\\UpdateCitasRequest.cs",
+              "RelativeToolTip": "PacienteAPIS\\Models\\UpdateCitasRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:59:39.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240620210052_Second.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\20240620210052_Second.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Migrations\\20240620210052_Second.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\20240620210052_Second.cs",
+              "RelativeToolTip": "PacienteAPIS\\Migrations\\20240620210052_Second.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T21:00:52.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "PacienteAPIS\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:52:19.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240620204256_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\20240620204256_Inicial.cs",
+              "RelativeDocumentMoniker": "PacienteAPIS\\Migrations\\20240620204256_Inicial.cs",
+              "ToolTip": "C:\\Users\\Santiago\\Desktop\\ProyectoCompletoCitasMedicas\\backend\\PacienteAPIS\\PacienteAPIS\\Migrations\\20240620204256_Inicial.cs",
+              "RelativeToolTip": "PacienteAPIS\\Migrations\\20240620204256_Inicial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T20:42:57.148Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

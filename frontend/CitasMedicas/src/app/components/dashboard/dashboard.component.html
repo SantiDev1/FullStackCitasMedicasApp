@@ -1,0 +1,57 @@
+<div class="grid-container">
+  <h1 class="mat-h1">Lista de Citas</h1>
+
+  <!-- Botón para Agendar Cita -->
+  <div class="example-button-row">
+    <div class="example-flex-container">
+      <div class="example-button-container">
+        <button mat-fab extended routerLink="/inicio/create" style="margin-bottom: 50px;">
+          <mat-icon>favorite</mat-icon>
+          Agendar Cita
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor Principal -->
+  <div class="container">
+
+    <!-- Campo de Búsqueda -->
+    <mat-form-field appearance="fill" class="example-full-width">
+      <mat-label>Buscar citas</mat-label>
+    <input matInput (input)="applyFilter($any($event.target).value)" placeholder="Escribe para filtrar">
+
+
+    </mat-form-field>
+
+
+    <div *ngIf="(filteredCitas | async)?.length; else noCitas">
+      <div *ngFor="let cita of filteredCitas | async">
+        <mat-card class="example-card" appearance="outlined" style="margin-top: 10px;">
+          <mat-card-header>
+            <mat-card-title>Señor(a) {{ cita.nombres }} {{ cita.apellidos }}</mat-card-title>
+            <mat-card-subtitle>Usted tiene una cita agendada para el día y hora: {{ cita.calendario }}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>En la ciudad de {{ cita.ciudad }} con ubicación en la oficina {{ cita.oficina }}</p>
+            <p>Por favor no olvide su documento: {{ cita.numeroDocumento }} para su trámite {{ cita.tramite }}</p>
+          </mat-card-content>
+          <mat-card-actions style="margin-top: 10px;">
+            <button mat-stroked-button color="warn" (click)="confirmDelete(cita.id)">Cancelar Cita</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+
+   
+    <ng-template #noCitas>
+      <mat-card>
+        <mat-card-content>
+          <p>No tienes citas agendadas.</p>
+        </mat-card-content>
+      </mat-card>
+    </ng-template>
+
+  </div> 
+
+</div>
