@@ -13,22 +13,23 @@ export class RegistroComponent {
   email: string = '';
   password: string = '';
 
-// manejo de errores qe retorna la api
+  // manejo de errores que retorna la api
   errores: { [key: string]: string } = {
     PasswordTooShort: "Las contraseñas deben tener al menos 6 caracteres.",
     PasswordRequiresNonAlphanumeric: "Las contraseñas deben contener al menos un carácter no alfanumérico.",
     PasswordRequiresLower: "Las contraseñas deben contener al menos una letra minúscula ('a'-'z').",
     PasswordRequiresUpper: "Las contraseñas deben contener al menos una letra mayúscula ('A'-'Z').",
     PasswordRequiresSpecial: "Las contraseñas deben contener al menos un carácter especial (por ejemplo, '@' o '*').",
-    DuplicateUserName: "El correo electrónico ya está en uso."
+    DuplicateUserName: "El correo electrónico ya está en uso.",
+    InvalidEmail: "El correo electrónico ingresado es inválido."  
   };
 
   constructor(
     private accesoService: AccesoService,
     private router: Router
   ) {}
-// funcioon principalque hace el registro de los usuarios con validaciones
 
+  // función principal que hace el registro de los usuarios con validaciones
   Registrarse() {
     if (!this.email || !this.password) {
       Swal.fire({
@@ -77,10 +78,14 @@ export class RegistroComponent {
       },
       error: (error) => {
         console.error('Error al registrar:', error);
-        if (error.errors && error.errors.DuplicateUserName) {
-          this.mostrarError('DuplicateUserName');
+        if (error.status === 400 && error.error.errors) {
+          if (error.error.errors.InvalidEmail) {
+            this.mostrarError('InvalidEmail');
+          } else if (error.error.errors.DuplicateUserName) {
+            this.mostrarError('DuplicateUserName');
+          }
         } else {
-          this.mostrarError('DuplicateUserName');
+          this.mostrarError('DuplicateUserName'); // Fallback error message
         }
       }
     });
@@ -91,26 +96,27 @@ export class RegistroComponent {
     this.router.navigate(['']);
   }
 
-//  esta  funcion muestra el error dado el caso de que el  usuario no ingresela contraseña con las condiciones
-private mostrarError(tipo: string) {
-  let mensaje: string;
-  switch (tipo) {
-    case 'CampoRequerido':
-    case 'PasswordTooShort':
-    case 'PasswordRequiresNonAlphanumeric':
-    case 'PasswordRequiresLower':
-    case 'PasswordRequiresUpper':
-    case 'PasswordRequiresSpecial':
-    case 'DuplicateUserName':
-      mensaje = this.errores[tipo];
-      break;
-    default:
-      mensaje = 'Error desconocido';
+  // esta función muestra el error dado el caso de que el usuario no ingrese la contraseña con las condiciones
+  private mostrarError(tipo: string) {
+    let mensaje: string;
+    switch (tipo) {
+      case 'CampoRequerido':
+      case 'PasswordTooShort':
+      case 'PasswordRequiresNonAlphanumeric':
+      case 'PasswordRequiresLower':
+      case 'PasswordRequiresUpper':
+      case 'PasswordRequiresSpecial':
+      case 'DuplicateUserName':
+      case 'InvalidEmail':  // New error type
+        mensaje = this.errores[tipo];
+        break;
+      default:
+        mensaje = 'Error desconocido';
+    }
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: mensaje
+    });
   }
-  Swal.fire({
-    icon: 'error',
-    title: 'Oops...',
-    text: mensaje
-  });
-}
 }
