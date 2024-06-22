@@ -91,7 +91,7 @@ export class RegistroComponent {
     this.router.navigate(['']);
   }
 
-//  esta  funcion muestra el error dado el caso de que el  usuario no ingresela contraseña con las condiciones
+//  esta  funcion muestra el error dado el caso de que el  usuario no ingrese la contraseña y diferentes validaciones como campo requerido y usuario ya creado
 private mostrarError(tipo: string) {
   let mensaje: string;
   switch (tipo) {
