@@ -78,14 +78,15 @@ export class RegistroComponent {
       },
       error: (error) => {
         console.error('Error al registrar:', error);
-        if (error.status === 400 && error.error.errors) {
-          if (error.error.errors.InvalidEmail) {
+        if (error.response && error.response.data && error.response.data.errors) {
+          const apiErrors = error.response.data.errors;
+          if (apiErrors.InvalidEmail && apiErrors.InvalidEmail[0]) {
             this.mostrarError('InvalidEmail');
-          } else if (error.error.errors.DuplicateUserName) {
+          } else if (apiErrors.DuplicateUserName && apiErrors.DuplicateUserName[0]) {
             this.mostrarError('DuplicateUserName');
           }
         } else {
-          this.mostrarError('DuplicateUserName'); // Fallback error message
+          this.mostrarError('Error desconocido'); // Mensaje de error por defecto
         }
       }
     });
