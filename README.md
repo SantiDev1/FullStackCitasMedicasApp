@@ -11,7 +11,7 @@ Nuestra aplicación ofrece una solución intuitiva y eficiente para la solicitud
 5. [Contribución](#contribución)
 6. [Licencia](#licencia)
 7. [Test](#test)
-8. [Documentacion Back end](#Documentacion Back end)
+8. [Documentacion Back end](#DocumentacionBackend)
 
 ## Requisitos
 
@@ -83,6 +83,6 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más 
 
 Ejecuta ng test para realizar los respectivos test
 
-#Documentacion Back end
+#DocumentacionBackend
 
 Visita esta url para ver la documentacion del back end https://drive.google.com/file/d/12eH_7V8UCBofUeRo5oWbLmKIE7-ZzS3Z/view?usp=sharing
